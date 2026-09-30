@@ -1,8 +1,89 @@
-body{
+.home-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
     background-image: url(image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    padding: 0 20px 40px;
+    line-height: 1.6;
 }
+.home-page .box {
+    max-width: 700px;
+    margin: 24px auto 0;
+    background: rgba(255,255,255,0.95);
+    padding: 25px;
+    border-radius: 10px;
+}
+.home-page h1 { margin: 0; color: #0a1931; }
+.home-page h3 { color: #333; }
+.home-page nav { background: #0a1931; padding: 12px 20px; margin: 0 -20px; text-align: right; }
+.home-page nav a { color: white; text-decoration: none; margin-right: 15px; }
+.home-page nav a:hover { text-decoration: underline; }
+.home-page footer { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ddd; text-align: center; font-size: 13px; color: #666; }
+.home-page img.logo { width: 100px; border-radius: 6px; margin: 10px 0; }
+
+.about-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px 40px;
+    line-height: 1.6;
+    background: url(background.jpg);
+    min-height: 100vh;
+}
+.about-page .box {
+    max-width: 700px;
+    margin: 24px auto 0;
+    background: rgba(255, 255, 255, 0.82);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.16);
+    backdrop-filter: blur(3px);
+}
+.about-page h2 { margin-top: 0; color: #0a1931; }
+.about-page h3 { color: #333; margin-bottom: 5px; margin-top: 20px; }
+.about-page hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+.about-page nav { background: #7893bd; padding: 12px 20px; margin: 0 -20px; text-align: right; }
+.about-page nav a { color: white; text-decoration: none; margin-right: 15px; }
+.about-page nav a:hover { text-decoration: underline; }
+
+.contacts-page {
+    font-family: Arial;
+    margin: 0;
+    padding: 0 20px 30px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contacts-page .box { max-width: 500px; margin: 24px auto 0; background: #fff; padding: 20px; border-radius: 8px; }
+.contacts-page nav { background: #0a1931; padding: 12px 20px; margin: 0 -20px; text-align: right; }
+.contacts-page nav a { color: white; text-decoration: none; margin-right: 15px; }
+.contacts-page nav a:hover { text-decoration: underline; }
+.contacts-page input,
+.contacts-page select,
+.contacts-page textarea { width: 95%; padding: 8px; margin: 5px 0 10px; }
+.contacts-page .contact-method { width: auto; }
+.contacts-page .form-button { width: 100px; }
+.contacts-page .contact-footer { text-align: center; font-size: 12px; color: #666; margin-top: 20px; }
+
+.modules-page {
+    font-family: Arial;
+    margin: 0;
+    padding: 0 20px 15px;
+    background: url(labs.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.modules-page .box { max-width: 800px; margin: 24px auto 0; background: rgba(200,200,200,0.82); padding: 15px; border-radius: 8px; backdrop-filter: blur(20px); }
+.modules-page nav { background: #0a1931; padding: 12px 20px; margin: 0 -20px; text-align: right; }
+.modules-page nav a { color: white; text-decoration: none; margin-right: 15px; }
+.modules-page nav a:hover { text-decoration: underline; }
+.modules-page table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.modules-page th,
+.modules-page td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+.modules-page th { background: #0a1931; color: #fff; }
+.modules-page .year { background: #eee; font-weight: bold; text-align: center; }
 

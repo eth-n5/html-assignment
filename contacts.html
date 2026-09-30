@@ -2,16 +2,9 @@
 <html>
 <head>
 <title>Contact - CS Dept</title>
-<style>
-body{font-family:Arial;margin:0;padding:0 20px 30px;background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('background.jpg');background-size:cover;background-position:center;}
-.box{max-width:500px;margin:24px auto 0;background:#fff;padding:20px;border-radius:8px;}
-nav{background:#0a1931;padding:12px 20px;margin:0 -20px;text-align:right;}
-nav a{color:white;text-decoration:none;margin-right:15px;}
-nav a:hover{text-decoration:underline;}
-input,select,textarea{width:95%;padding:8px;margin:5px 0 10px;}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="contacts-page">
 <nav>
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
@@ -45,14 +38,14 @@ Student number<br><input type="text"><br>
 
 
 <h4>Preferred Contact Method</h4>
-<input type="radio" name="contact" style="width:auto;"> Email<br>
-<input type="radio" name="contact" style="width:auto;"> Phone<br>
-<input type="radio" name="contact" style="width:auto;"> SMS<br><br>
-<input type="submit" value="Submit" style="width:100px;">
-<input type="reset" value="Reset" style="width:100px;">
+<input type="radio" name="contact" class="contact-method"> Email<br>
+<input type="radio" name="contact" class="contact-method"> Phone<br>
+<input type="radio" name="contact" class="contact-method"> SMS<br><br>
+<input type="submit" value="Submit" class="form-button">
+<input type="reset" value="Reset" class="form-button">
 </form>
 
-<p style="text-align:center;font-size:12px;color:#666;margin-top:20px;">&copy; 2026 CS Dept, UL</p>
+<p class="contact-footer">&copy; 2026 CS Dept, UL</p>
 </div>
 </body>
 </html>
